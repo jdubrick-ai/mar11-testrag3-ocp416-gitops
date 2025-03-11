@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mar11-testrag3-ocp416-database-config
+data:
+  VECTORDB_HOST: "mar11-testrag3-ocp416-database"
+  VECTORDB_PORT: "8000"
